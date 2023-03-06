@@ -1,14 +1,12 @@
 .row{
     padding: 20px;
-
+    margin-left: 10px; /* mueve titulo */
 }
 
 div{
-    
-    background: #a1b5cb;
+    background-color: #fbeec1;
     /* background: #a1b5cb !important; */
 } 
-
 h1,h3{
     display: inline;
 }
