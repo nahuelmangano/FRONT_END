@@ -2,6 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { Experiencia } from 'src/app/model/experiencia';
 import { SExperienciaService } from 'src/app/service/s-experiencia.service';
 import { TokenService } from 'src/app/service/token.service';
+import { EditExperienciaComponent } from './edit-experiencia.component';
+import { MatDialog } from '@angular/material/dialog';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { NewExperienciaComponent } from './new-experiencia.component';
+
+
 
 @Component({
   selector: 'app-experiencia',
@@ -11,7 +17,12 @@ import { TokenService } from 'src/app/service/token.service';
 export class ExperienciaComponent implements OnInit {
   expe: Experiencia[] = [];
 
-  constructor(private sExperiencia: SExperienciaService, private tokenService: TokenService) { }
+  constructor(
+    private sExperiencia: SExperienciaService,
+     private tokenService: TokenService
+
+     
+     ) { }
 
   isLogged = false;
 
@@ -39,4 +50,10 @@ export class ExperienciaComponent implements OnInit {
       )
     }
   }
+
+  //pop up
+
+  
+ 
+  
 }

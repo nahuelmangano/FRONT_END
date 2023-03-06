@@ -3,18 +3,21 @@
 }
 
 div{
-    background-color: #a1b5cb;
+    background-color: #e8f3fa;
     text-align: center;
 }
 /* propiedades fotoperfil */
 @media(min-width: 576px){
     #perfil-pic{
-        position: absolute;
-        width: 15%;
+        
         border-radius:100% ;
         box-shadow: 3px 3px 3px grey;
+        /*
+        position: absolute;
+        width: 13.5%;
         left: 3%;
-        top:475px; /* movimiento de fotoperfil arriba */
+        */
+        /*top:400px;*/ /* movimiento de fotoperfil arriba */
 
     }
 }
