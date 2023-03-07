@@ -14,7 +14,7 @@ export const environment = {
     measurementId: 'G-9VQFL6KQHK',
   },
   production: false,
-  //URL: 'http://localhost:8080',
+  //URL: 'http://localhost:4200',
   URL: 'https://backendnahuelmangano.onrender.com/'
 };
 
