@@ -13,7 +13,9 @@ export const environment = {
     messagingSenderId: '659240681678',
     measurementId: 'G-9VQFL6KQHK',
   },
-  production: false
+  production: false,
+  //URL: 'http://localhost:8080',
+  URL: 'https://backendnahuelmangano.onrender.com/'
 };
 
 /*
