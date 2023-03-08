@@ -30,7 +30,7 @@ export class AcercaDeComponent implements OnInit {
   }
 
   cargarPersona(){
-    this.personaService.detail(1).subscribe(data => 
+    this.personaService.detail(0).subscribe(data => 
       {this.persona = data}
       )
   }
